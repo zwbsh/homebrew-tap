@@ -1,7 +1,7 @@
 # ZWB.SH Homebrew tap
 
-Generated from [zwbsh/monorepo](https://github.com/zwbsh/monorepo) (`tools/homebrew/render.mjs`) after each release.
-Don't edit these files by hand: the next release overwrites them.
+These files are generated automatically after each release; don't edit them by hand, the next release overwrites
+them.
 
 ```sh
 brew install zwbsh/tap/agentjail        # agentjail, Linux x86_64 and aarch64
