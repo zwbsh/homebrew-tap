@@ -1,9 +1,9 @@
 # Generated automatically after each ZWB.SH release. Edits here are overwritten.
 cask "zwbsh" do
-  version "0.1.5"
-  sha256 "27424d65da320727cd3a0ba8515e58639c0fdf6073b4d917b52dbea0f7bfa8fd"
+  version "0.1.6"
+  sha256 "6fa92b82f18d7cc1a018951e3a461db40fa210cde32f22bf368e323ed23e13dd"
 
-  url "https://zwb.sh/download/files/0.1.5/ZWB.SH_0.1.5_universal.dmg"
+  url "https://zwb.sh/download/files/0.1.6/ZWB.SH_0.1.6_universal.dmg"
   name "ZWB.SH"
   desc "Pull request reviews, insights and repositories from ZWB.SH"
   homepage "https://zwb.sh/download/"
