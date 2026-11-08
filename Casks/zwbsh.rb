@@ -1,15 +1,15 @@
 # Generated automatically after each ZWB.SH release. Edits here are overwritten.
 cask "zwbsh" do
-  version "0.1.15"
-  sha256 "21af1e9fb520021f231a85c907433467de1c1ce6d0767ab3a71e8d341b14f262"
+  version "0.2.28"
+  sha256 "29cc00dcd47f68f47bfb5e8ab67dba68adf0072e0a8f9c7b09a833f84a1accf5"
 
-  url "https://zwb.sh/download/files/0.1.15/ZWB.SH_0.1.15_universal.dmg"
+  url "https://zwb.sh/download/desktop/files/0.2.28/ZWB.SH-0.2.28-macos.dmg"
   name "ZWB.SH"
   desc "Pull request reviews, insights and repositories from ZWB.SH"
   homepage "https://zwb.sh/download/"
 
   livecheck do
-    url "https://zwb.sh/download/downloads.json"
+    url "https://zwb.sh/download/desktop/downloads.json"
     strategy :json do |json|
       json["version"]
     end
@@ -17,11 +17,14 @@ cask "zwbsh" do
 
   # The app checks zwb.sh for signed updates and installs them itself.
   auto_updates true
-  depends_on macos: ">= :big_sur"
+  depends_on macos: ">= :ventura"
 
   app "ZWB.SH.app"
 
   zap trash: [
+    "~/Library/Application Support/sh.zwb.rune",
+    "~/Library/Preferences/sh.zwb.rune.plist",
+    "~/Library/Saved Application State/sh.zwb.rune.savedState",
     "~/Library/Application Support/sh.zwb.app",
     "~/Library/Caches/sh.zwb.app",
     "~/Library/Preferences/sh.zwb.app.plist",

@@ -5,7 +5,7 @@ them.
 
 ```sh
 brew install zwbsh/tap/agentjail        # agentjail, Linux x86_64 and aarch64
-brew install --cask zwbsh/tap/zwbsh     # the ZWB.SH desktop app, macOS 11+
+brew install --cask zwbsh/tap/zwbsh     # the ZWB.SH desktop app, macOS 13+
 ```
 
 | | What | Docs |
